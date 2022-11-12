@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		CEA81A5A291AA0B300B87E0C /* dayzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A59291AA0B300B87E0C /* dayzerApp.swift */; };
-		CEA81A5C291AA0B300B87E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A5B291AA0B300B87E0C /* ContentView.swift */; };
 		CEA81A5E291AA0B500B87E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA81A5D291AA0B500B87E0C /* Assets.xcassets */; };
 		CEA81A61291AA0B500B87E0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA81A60291AA0B500B87E0C /* Preview Assets.xcassets */; };
 		CEA81A6B291AA0B500B87E0C /* dayzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A6A291AA0B500B87E0C /* dayzerTests.swift */; };
 		CEA81A75291AA0B500B87E0C /* dayzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A74291AA0B500B87E0C /* dayzerUITests.swift */; };
 		CEA81A77291AA0B500B87E0C /* dayzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A76291AA0B500B87E0C /* dayzerUITestsLaunchTests.swift */; };
+		CEA81A86291AA14300B87E0C /* onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A85291AA14300B87E0C /* onboarding.swift */; };
+		CEA81A89291AA23400B87E0C /* color_extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA81A88291AA23400B87E0C /* color_extenstion.swift */; };
+		CEA9DA6E291CF553002AD74C /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9DA6D291CF553002AD74C /* index.swift */; };
+		CEA9DA70291CF8FC002AD74C /* home_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9DA6F291CF8FC002AD74C /* home_screen.swift */; };
+		CEA9DA72291CF9A0002AD74C /* folder_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9DA71291CF9A0002AD74C /* folder_screen.swift */; };
+		CEA9DA74291CFA52002AD74C /* clipboard_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9DA73291CFA52002AD74C /* clipboard_screen.swift */; };
+		CEA9DA76291CFB05002AD74C /* calendar_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9DA75291CFB05002AD74C /* calendar_screen.swift */; };
+		CEE86C32291FD42B003C949B /* connection_response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C31291FD42B003C949B /* connection_response.swift */; };
+		CEE86C34291FD93E003C949B /* connection_list_section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C33291FD93E003C949B /* connection_list_section.swift */; };
+		CEE86C38291FD9DC003C949B /* home_search_field.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C37291FD9DC003C949B /* home_search_field.swift */; };
+		CEE86C3A291FDC01003C949B /* home_appbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C39291FDC01003C949B /* home_appbar.swift */; };
+		CEE86C3C291FDC56003C949B /* home_task_title.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C3B291FDC56003C949B /* home_task_title.swift */; };
+		CEE86C45291FE6A8003C949B /* project_item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C44291FE6A8003C949B /* project_item.swift */; };
+		CEE86C47291FE76B003C949B /* project_section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C46291FE76B003C949B /* project_section.swift */; };
+		CEE86C49292001B2003C949B /* profile_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE86C48292001B2003C949B /* profile_image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		CEA81A56291AA0B300B87E0C /* dayzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dayzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA81A59291AA0B300B87E0C /* dayzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayzerApp.swift; sourceTree = "<group>"; };
-		CEA81A5B291AA0B300B87E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEA81A5D291AA0B500B87E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA81A60291AA0B500B87E0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEA81A66291AA0B500B87E0C /* dayzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,21 @@
 		CEA81A70291AA0B500B87E0C /* dayzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA81A74291AA0B500B87E0C /* dayzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayzerUITests.swift; sourceTree = "<group>"; };
 		CEA81A76291AA0B500B87E0C /* dayzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA81A85291AA14300B87E0C /* onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding.swift; sourceTree = "<group>"; };
+		CEA81A88291AA23400B87E0C /* color_extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_extenstion.swift; sourceTree = "<group>"; };
+		CEA9DA6D291CF553002AD74C /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
+		CEA9DA6F291CF8FC002AD74C /* home_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_screen.swift; sourceTree = "<group>"; };
+		CEA9DA71291CF9A0002AD74C /* folder_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = folder_screen.swift; sourceTree = "<group>"; };
+		CEA9DA73291CFA52002AD74C /* clipboard_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipboard_screen.swift; sourceTree = "<group>"; };
+		CEA9DA75291CFB05002AD74C /* calendar_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_screen.swift; sourceTree = "<group>"; };
+		CEE86C31291FD42B003C949B /* connection_response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connection_response.swift; sourceTree = "<group>"; };
+		CEE86C33291FD93E003C949B /* connection_list_section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connection_list_section.swift; sourceTree = "<group>"; };
+		CEE86C37291FD9DC003C949B /* home_search_field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_search_field.swift; sourceTree = "<group>"; };
+		CEE86C39291FDC01003C949B /* home_appbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_appbar.swift; sourceTree = "<group>"; };
+		CEE86C3B291FDC56003C949B /* home_task_title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_task_title.swift; sourceTree = "<group>"; };
+		CEE86C44291FE6A8003C949B /* project_item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_item.swift; sourceTree = "<group>"; };
+		CEE86C46291FE76B003C949B /* project_section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_section.swift; sourceTree = "<group>"; };
+		CEE86C48292001B2003C949B /* profile_image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile_image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +122,9 @@
 		CEA81A58291AA0B300B87E0C /* dayzer */ = {
 			isa = PBXGroup;
 			children = (
+				CEE86C3D291FDCD6003C949B /* core */,
+				CEE86C3E291FDCE4003C949B /* features */,
 				CEA81A59291AA0B300B87E0C /* dayzerApp.swift */,
-				CEA81A5B291AA0B300B87E0C /* ContentView.swift */,
 				CEA81A5D291AA0B500B87E0C /* Assets.xcassets */,
 				CEA81A5F291AA0B500B87E0C /* Preview Content */,
 			);
@@ -125,6 +154,107 @@
 				CEA81A76291AA0B500B87E0C /* dayzerUITestsLaunchTests.swift */,
 			);
 			path = dayzerUITests;
+			sourceTree = "<group>";
+		};
+		CEA81A84291AA0F100B87E0C /* components */ = {
+			isa = PBXGroup;
+			children = (
+				CEE86C48292001B2003C949B /* profile_image.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		CEA81A87291AA21100B87E0C /* extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				CEA81A88291AA23400B87E0C /* color_extenstion.swift */,
+			);
+			path = extenstions;
+			sourceTree = "<group>";
+		};
+		CEE86C30291FD3A0003C949B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE86C31291FD42B003C949B /* connection_response.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CEE86C35291FD9AA003C949B /* homeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEE86C30291FD3A0003C949B /* models */,
+				CEE86C36291FD9B8003C949B /* components */,
+				CEA9DA6F291CF8FC002AD74C /* home_screen.swift */,
+			);
+			path = homeScreen;
+			sourceTree = "<group>";
+		};
+		CEE86C36291FD9B8003C949B /* components */ = {
+			isa = PBXGroup;
+			children = (
+				CEE86C33291FD93E003C949B /* connection_list_section.swift */,
+				CEE86C37291FD9DC003C949B /* home_search_field.swift */,
+				CEE86C39291FDC01003C949B /* home_appbar.swift */,
+				CEE86C3B291FDC56003C949B /* home_task_title.swift */,
+				CEE86C44291FE6A8003C949B /* project_item.swift */,
+				CEE86C46291FE76B003C949B /* project_section.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		CEE86C3D291FDCD6003C949B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CEA81A87291AA21100B87E0C /* extenstions */,
+				CEA81A84291AA0F100B87E0C /* components */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CEE86C3E291FDCE4003C949B /* features */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9DA6D291CF553002AD74C /* index.swift */,
+				CEE86C42291FDD69003C949B /* onboardingScreen */,
+				CEE86C41291FDD5D003C949B /* calendarScreen */,
+				CEE86C40291FDD49003C949B /* clipboardScreen */,
+				CEE86C3F291FDD37003C949B /* folderScreen */,
+				CEE86C35291FD9AA003C949B /* homeScreen */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		CEE86C3F291FDD37003C949B /* folderScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9DA71291CF9A0002AD74C /* folder_screen.swift */,
+			);
+			path = folderScreen;
+			sourceTree = "<group>";
+		};
+		CEE86C40291FDD49003C949B /* clipboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9DA73291CFA52002AD74C /* clipboard_screen.swift */,
+			);
+			path = clipboardScreen;
+			sourceTree = "<group>";
+		};
+		CEE86C41291FDD5D003C949B /* calendarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9DA75291CFB05002AD74C /* calendar_screen.swift */,
+			);
+			path = calendarScreen;
+			sourceTree = "<group>";
+		};
+		CEE86C42291FDD69003C949B /* onboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEA81A85291AA14300B87E0C /* onboarding.swift */,
+			);
+			path = onboardingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +387,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA81A5C291AA0B300B87E0C /* ContentView.swift in Sources */,
+				CEA9DA74291CFA52002AD74C /* clipboard_screen.swift in Sources */,
+				CEE86C49292001B2003C949B /* profile_image.swift in Sources */,
+				CEE86C32291FD42B003C949B /* connection_response.swift in Sources */,
+				CEE86C45291FE6A8003C949B /* project_item.swift in Sources */,
+				CEA81A86291AA14300B87E0C /* onboarding.swift in Sources */,
+				CEE86C3C291FDC56003C949B /* home_task_title.swift in Sources */,
+				CEE86C47291FE76B003C949B /* project_section.swift in Sources */,
+				CEE86C34291FD93E003C949B /* connection_list_section.swift in Sources */,
 				CEA81A5A291AA0B300B87E0C /* dayzerApp.swift in Sources */,
+				CEA9DA6E291CF553002AD74C /* index.swift in Sources */,
+				CEE86C38291FD9DC003C949B /* home_search_field.swift in Sources */,
+				CEA9DA76291CFB05002AD74C /* calendar_screen.swift in Sources */,
+				CEE86C3A291FDC01003C949B /* home_appbar.swift in Sources */,
+				CEA9DA70291CF8FC002AD74C /* home_screen.swift in Sources */,
+				CEA9DA72291CF9A0002AD74C /* folder_screen.swift in Sources */,
+				CEA81A89291AA23400B87E0C /* color_extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
